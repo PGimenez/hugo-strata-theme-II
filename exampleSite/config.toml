@@ -41,6 +41,7 @@ paginate = 10
 		youtube = ""
 		github = "spf13"
 		gitlab = "spf13"
+		devto = ""
 		dribbble = ""
 		facebook = ""
 		googleplus = ""

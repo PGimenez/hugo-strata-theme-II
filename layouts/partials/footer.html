@@ -19,6 +19,9 @@
 		{{ with .Site.Params.sidebar.gitlab }}
 		<li><a href="//gitlab.com/{{ . }}" target="_blank" rel="noopener noreferrer" class="icon fa-gitlab"><span class="label">GitLab</span></a></li>
 		{{ end }}
+		{{ with .Site.Params.sidebar.devto }}
+		<li><a href="//dev.to/{{ . }}" target="_blank" rel="noopener noreferrer" class="icon"><i class="fab fa-dev fa-lg"></i><span class="label">Dev.to</span></a></li>
+		{{ end }}
 		{{ with .Site.Params.sidebar.linkedin }}
 		<li><a href="//linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
 		{{ end }}
