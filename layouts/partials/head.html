@@ -28,6 +28,7 @@
 		{{ end }}
 
 		{{ if .Site.Params.sidebar.twitter}}
+		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="summary">
 		<meta name="twitter:creator" content="@{{ .Site.Params.sidebar.twitter }}">
 		<meta name="twitter:title" content="{{$.Params.title}}">
